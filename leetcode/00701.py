@@ -24,6 +24,3 @@ class Solution:
             return TreeNode(val)
         helper(root, val)
         return root
-
-
-
