@@ -6,4 +6,4 @@ class Solution:
         for i in c:
             if c[k - i] > 0:
                 ans += min(c[i], c[k - i])
-        return ans // 2 
+        return ans // 2
