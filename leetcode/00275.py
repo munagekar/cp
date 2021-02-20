@@ -18,7 +18,7 @@ class Solution:
                 return
 
             if n.left:
-                explore(n.left, copy.deepcopy(path))
+                explore(n.left, copy    .deepcopy(path))
 
             if n.right:
                 explore(n.right, copy.deepcopy(path))
