@@ -1,0 +1,1 @@
+tail file.txt -n +10 | head -n1
